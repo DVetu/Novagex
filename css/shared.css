@@ -1,0 +1,24 @@
+:root {
+    --primary-color:               rgb( 166, 192, 217);
+    --secondary-color:             rgba(116, 147, 187, 0.884);
+    --accent-color:                rgb(203, 206, 212);
+    --peach-color:                 rgb( 255, 231, 178);
+    --lavender-light:              rgb(223, 236, 245);
+    --dark-gray:                   rgb(  80,  80,  90);
+    --light-gray:                  rgb( 255, 251, 245);
+    --text-dark:                   rgb(  70,  70,  80);
+    --white:                       rgb( 255, 255, 255);
+
+    /* background: linear-gradient(135deg, var(--gradient-pink) 0%, var(--gradient-lavender) 33%, var(--gradient-teal) 66%, var(--gradient-cream) 100%); */
+    --gradient-pink:               rgba(95, 168, 228, 0.568);
+    --gradient-lavender:           rgb(215, 225, 238);
+    --gradient-teal:               rgb(194, 227, 235);
+    --gradient-cream:              rgb(255, 248, 233);
+    --gradient-blue:               rgb(234, 244, 255);
+
+    --shadow-light:     0 4px 15px rgba(181, 166, 217, 0.15);
+    --shadow-medium:    0 6px 20px rgba(181, 166, 217, 0.2);
+    --shadow-large:     0 8px 30px rgba(181, 166, 217, 0.25);
+    --border-radius-sm: 25px;
+    --border-radius-md: 15px;
+}

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Dev/StorageFlowWeb/docs/**)",
+      "PowerShell(Rename-Item \"C:\\\\Dev\\\\Novagex\\\\storageflow\\\\content\\\\index-en.js\" \"storageflow-en.js\")",
+      "PowerShell(Rename-Item \"C:\\\\Dev\\\\Novagex\\\\storageflow\\\\content\\\\index-fr.js\" \"storageflow-fr.js\")"
+    ]
+  }
+}

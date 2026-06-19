@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novagex</title>
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="css/novagex.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html"><img src="img/NovagexLogo-removebg-mini.png" alt="Novagex" class="novagex-logo"></a>
+                <div class="header-text">
+                    <h1 class="lang" id="MainTitle"></h1>
+                    <p class="lang" id="MainSubtitle"></p>
+                </div>
+                <button class="lang-toggle lang" id="LanguageToggle" onclick="LanguageManager.SwitchLanguage()"></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section id="gallery">
+            <div class="carousel">
+                <div class="carousel-track">
+                    <img src="img/01-nasa.jpg"                     class="carousel-slide active" alt="nasa">
+                    <img src="img/02-login-en.jpg"                 class="carousel-slide lang"   alt="login"               id="CarouselSlide02">
+                    <img src="img/04-dashboard-en.jpg"             class="carousel-slide lang"   alt="dashboard"           id="CarouselSlide04">
+                    <img src="img/05-microsoft-courses.jpg"        class="carousel-slide"        alt="microsoft-courses">
+                    <img src="img/06-storage-management-en.jpg"    class="carousel-slide lang"   alt="storage-management"  id="CarouselSlide06">
+                    <img src="img/07-code.jpg"                     class="carousel-slide"        alt="code">
+                    <img src="img/08-reports-en.jpg"               class="carousel-slide lang"   alt="reports"             id="CarouselSlide08">
+                    <img src="img/09-novagex-office-heidi.png"     class="carousel-slide"        alt="novagex-office-heidi">
+                    <img src="img/10-Tools-en.jpg"                 class="carousel-slide lang"   alt="tools"               id="CarouselSlide10">
+                    <img src="img/11-heidi-clara-adirondacks.JPG"  class="carousel-slide"        alt="heidi-clara-adirondacks">
+                </div>
+                <button class="carousel-btn carousel-prev" onclick="Carousel.prev()">&#8249;</button>
+                <button class="carousel-btn carousel-next" onclick="Carousel.next()">&#8250;</button>
+                <div class="carousel-dots"></div>
+            </div>
+        </section>
+
+        <section id="projects" class="animate-on-scroll">
+            <h2 class="section-title lang" id="ProjectsTitle"></h2>
+            <div class="projects-grid">
+                <div class="project-card" data-href="storageflow.html">
+                    <div class="project-card-inner">
+                        <div class="project-card-front">
+                            <h3 class="lang" id="Card1Title"></h3>
+                            <p class="lang" id="Card1Desc"></p>
+                        </div>
+                        <div class="project-card-back">
+                            <img id="Card1BackImg" class="lang" src="img/Card1-en.jpg" alt="STORAGEflow" onclick="window.location.href='storageflow.html'">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-href="#">
+                    <div class="project-card-inner">
+                        <div class="project-card-front">
+                            <h3 class="lang" id="Card2Title"></h3>
+                            <p class="lang" id="Card2Desc"></p>
+                        </div>
+                        <div class="project-card-back">
+                            <img src="img/MyPCmetrics.jpg" alt="MyPCmetrics" onclick="window.location.href='#'">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="animate-on-scroll">
+            <h2 class="section-title lang" id="AboutTitle"></h2>
+            <div class="about-content">
+                <p class="lang" id="AboutContent"></p>
+            </div>
+        </section>
+
+        <section id="contact" class="animate-on-scroll">
+            <h2 class="section-title lang" id="ContactTitle"></h2>
+            <div class="contact-info">
+                <p class="lang" id="ContactMessage"></p>
+                <p style="margin-top: 1rem;">
+                    <strong class="lang" id="EmailLabel"></strong>
+                    <a href="mailto:daniel.vetu@gmail.com">daniel.vetu@gmail.com</a>
+                </p>
+                <p>
+                    <strong class="lang" id="PhoneLabel"></strong>
+                    <a href="tel:+15142136472">(514)213-6472</a>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="lang" id="FooterText"></p>
+        </div>
+    </footer>
+
+    <script src="js/novagex-LibEn.js"></script>
+    <script src="js/novagex-LibFr.js"></script>
+    <script src="js/novagex-script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            if (typeof LanguageManager !== 'undefined' && typeof LanguageManager.Init === 'function') {
+                LanguageManager.Init();
+            }
+        });
+    </script>
+</body>
+</html>
