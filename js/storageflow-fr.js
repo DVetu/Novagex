@@ -7,7 +7,9 @@ PageContent.FR = {
   TocImg5:    'img/05-storage-management-fr.jpg',
   TocImg6:    'img/06-reports-fr.jpg',
   TocImg7:    'img/07-users-management-fr.jpg',
-  TocImg8:    'img/08-Tools-fr.jpg',
+  TocImg8:    'img/08-tools-fr.jpg',
+  TocImg9:    'img/09-listes-fr.jpg',
+
 
   PageTitle:  'Bienvenue',
 
@@ -55,4 +57,8 @@ PageContent.FR = {
               'Chercher et remplacer (vraiment pratique lorsque vous réalisez que St-Jérôme est épelé de 12 façons différentes).<br>' +
               'Sauvegarde de vos données.',
 
+  TocTitle9:  'Gestion des listes',
+  TocDesc9:   '<b>Administrator access only !</b><br>' +
+              'L&apos;entrée des données est facilitée lorsque les listes présentées sont bien entretenues.<br>' +
+              'Profitez de cet écran pour éliminer les choix inutiles, et ajouter des choix plus pertinents. Par exemple ajustez la liste des villes, ou des types de véhicules.',
 };

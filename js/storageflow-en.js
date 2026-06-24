@@ -55,4 +55,9 @@ PageContent.EN = {
               'Search and replace (very handy when you realize that Mississauga is spelled in 12 different ways).<br>' +
               'Backing up your data.',
 
+  TocTitle9:  'Lists Management',
+  TocDesc9:   '<b>Administrator access only !</b><br>' +
+              'Data entry is easier when the list displayed is well maintained.<br>' +
+              'Use this screen to clean up and update the data displayed when entering information like city, or vehicle type.',
+
 };

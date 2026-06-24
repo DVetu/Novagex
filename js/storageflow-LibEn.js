@@ -8,9 +8,9 @@ translations.EN = {
   Nav2:           'Login',
   Nav3:           'Dashboard',
   Nav4:           'My Settings',
-  Nav5:           'Users Management',
-  Nav6:           'Storage Management',
-  Nav7:           'Reports',
+  Nav5:           'Storage Management',
+  Nav6:           'Reports',
+  Nav7:           'Users Management',
   Nav8:           'Tools',
-  Nav9:           'Help',
+  Nav9:           'Lists Management',
 };
