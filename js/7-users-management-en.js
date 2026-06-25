@@ -1,7 +1,9 @@
 if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.EN = {
   PageTitle:        'Users Management',
-  AdminNotice:      'This screen is available to administrators only. Standard users cannot open it — the card on the Dashboard appears dimmed.',
+
+  AdminNotice:      'This screen is available to administrators only.<br>' + 
+                    'Standard users cannot open it — the card on the Dashboard appears dimmed.',
   Intro:            'Users Management allows an administrator to create and maintain user accounts. Select a user in the grid to load their information into the fields, then edit and save.',
 
   HeadingUserInfo:  'User information',

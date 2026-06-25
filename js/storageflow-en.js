@@ -1,14 +1,15 @@
 ﻿if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.EN = {
-  TocImg1:    'img/01-Essentials-en.jpg',
+  TocImg1:    'img/01-essentials-en.jpg',
   TocImg2:    'img/02-login-en.jpg',
   TocImg3:    'img/03-dashboard-en.jpg',
   TocImg4:    'img/04-my-settings-en.jpg',
   TocImg5:    'img/05-storage-management-en.jpg',
   TocImg6:    'img/06-reports-en.jpg',
   TocImg7:    'img/07-users-management-en.jpg',
-  TocImg8:    'img/08-Tools-en.jpg',
-
+  TocImg8:    'img/08-tools-en.jpg',
+  TocImg9:    'img/09-lists-en.jpg',
+  
   PageTitle:  'Welcome',
 
   Intro1:     'StorageFlow is a desktop application for managing seasonal storage of "units" (automobiles, campers, boats). ' +

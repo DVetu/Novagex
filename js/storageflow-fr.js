@@ -1,6 +1,6 @@
 if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.FR = {
-  TocImg1:    'img/01-Essentials-fr.jpg',
+  TocImg1:    'img/01-essentials-fr.jpg',
   TocImg2:    'img/02-login-fr.jpg',
   TocImg3:    'img/03-dashboard-fr.jpg',
   TocImg4:    'img/04-my-settings-fr.jpg',
@@ -8,8 +8,7 @@ PageContent.FR = {
   TocImg6:    'img/06-reports-fr.jpg',
   TocImg7:    'img/07-users-management-fr.jpg',
   TocImg8:    'img/08-tools-fr.jpg',
-  TocImg9:    'img/09-listes-fr.jpg',
-
+  TocImg9:    'img/09-lists-fr.jpg',
 
   PageTitle:  'Bienvenue',
 
