@@ -2,9 +2,20 @@ if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.EN = {
   PageTitle:        'Users Management',
 
+  Overview:         'Users Management allows an administrator to:<br>' +
+                    ' - create and save new user accounts<br>' +
+                    ' - recall any user account<br>' +
+                    ' - update and save<br>' +
+                    ' - delete any user account',
+                    
+  OverviewNote:     'This is a dangerous screen !<br>' + 
+                    'This is so powerful that you could even lock yourself out.<br><br>' + 
+                    'Careful ! Any change or deletion is for real. If you got it wrong, too bad.',
+
   AdminNotice:      'This screen is available to administrators only.<br>' + 
-                    'Standard users cannot open it — the card on the Dashboard appears dimmed.',
-  Intro:            'Users Management allows an administrator to create and maintain user accounts. Select a user in the grid to load their information into the fields, then edit and save.',
+                    'Users without administrator privileges cannot open it — the card on the Dashboard appears dimmed.',
+                    
+  Intro:            'Select a user in the grid to load their information into the fields, then edit and save.',
 
   HeadingUserInfo:  'User information',
   HeadingControls:  'Controls',

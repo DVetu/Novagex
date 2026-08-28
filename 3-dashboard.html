@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/shared.css">
   <link rel="stylesheet" href="css/storageflow.css">
-  <title>StorageFlow - Login & Dashboard</title>
+  <title>StorageFlow - Dashboard</title>
 </head>
 <body>
   <header></header>
@@ -15,9 +15,11 @@
 
     <main class="content">
       <h2 id="PageTitle"></h2>
+      <p id="Overview"></p>
+      <div class="note" id="OverviewNote"></div>
+
       <details>
         <summary><h3 id="HeadingDashboard"></h3></summary>
-        <p id="DashboardIntro"></p>
 
         <div class="field">
           <div class="field-name" id="LabelColourMode"></div>
@@ -34,13 +36,6 @@
           <p id="MySettings"></p>
         </div>
 
-        <div class="admin-notice" id="AdminNotice"></div>
-
-        <div class="field">
-          <div class="field-name" id="LabelUsersManagement"></div>
-          <p id="UsersManagement"></p>
-        </div>
-
         <div class="field">
           <div class="field-name" id="LabelStorageManagement"></div>
           <p id="StorageManagement"></p>
@@ -50,15 +45,26 @@
           <div class="field-name" id="LabelReports"></div>
           <p id="Reports"></p>
         </div>
+      </details>
+
+      <details>
+        <summary><h3 id="HeadingDashboardAdmin"></h3></summary>
+
+        <div class="admin-notice" id="AdminNotice"></div>
 
         <div class="field">
-          <div class="field-name" id="LabelHelp"></div>
-          <p id="Help"></p>
+          <div class="field-name" id="LabelUsersManagement"></div>
+          <p id="UsersManagement"></p>
         </div>
 
         <div class="field">
-          <div class="field-name" id="LabelAbout"></div>
-          <p id="About"></p>
+          <div class="field-name" id="LabelTools"></div>
+          <p id="Tools"></p>
+        </div>
+
+        <div class="field">
+          <div class="field-name" id="LabelListsManagement"></div>
+          <p id="ListsManagement"></p>
         </div>
 
         <div class="field">

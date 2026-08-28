@@ -1,6 +1,7 @@
 if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.FR = {
   PageTitle:           'Gestion de l\'entreposage',
+
   Overview:            'La Gestion de l\'entreposage est la zone de travail principale. Elle est organisée en trois onglets : Clients, Unités et Entreposages. Les trois grilles au bas de l\'écran sont toujours visibles et se mettent à jour au fil de votre navigation.',
   OverviewNote:        'Un client possède une ou plusieurs unités (véhicules ou embarcations). Un contrat d\'entreposage associe un client et l\'une de ses unités à un emplacement physique pour une saison.',
 

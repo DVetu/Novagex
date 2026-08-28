@@ -1,7 +1,19 @@
 if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.EN = {
-  PageTitle:        'Reports',
-  Intro:            'The Reports screen lets you generate and export data from StorageFlow. Reports can be produced as a PDF (for printing or sharing) or as an Excel file (for further analysis).',
+    PageTitle:        'Reports',
+
+  Overview:         'The Reports screen lets you filter and export data from StorageFlow.<br>' +
+                    'Reports can be produced as:<br>' +
+                    ' - a PDF (excellent for printing or sharing)<br>' +
+                    ' - an Excel file (better for further analysis and manipulation).',
+                    
+  OverviewNote:     'Reports are preset, and organized by type of data:<br>' + 
+                    ' - Clients: client list, emails<br>' + 
+                    ' - units: vehicles by plate numbers<br>' + 
+                    ' - storages: units in storage, revenues, taxes, layouts.',
+
+  Intro:            'I recommend that you start with a simple list in a PDF format.<br>' + 
+                    'If you are familiar with Microsoft Excel you will soon want to try this powerful format.',
 
   LabelLanguageBtn: 'Language button',
   LanguageBtn:      'Switches the interface language between English and French.',

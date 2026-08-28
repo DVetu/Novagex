@@ -2,9 +2,20 @@ if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.FR = {
   PageTitle:        'Gestion des utilisateurs',
 
+  Overview:         'La Gestion des utilisateurs permet à un administrateur de :<br>' +
+                    ' - créer et sauvegarder de nouveaux comptes utilisateurs<br>' +
+                    ' - rappeler n\'importe quel compte utilisateur<br>' +
+                    ' - modifier et sauvegarder<br>' +
+                    ' - supprimer n\'importe quel compte utilisateur',
+
+  OverviewNote:     'Cet écran est dangereux !<br>' +
+                    'Il est si puissant que vous pourriez même vous verrouiller vous-même l\'accès.<br><br>' +
+                    'Attention ! Toute modification ou suppression est réelle. Si vous faites une erreur, tant pis.',
+
   AdminNotice:      'Cet écran est accessible aux administrateurs uniquement.<br>' +
-                    'Les utilisateurs standard ne peuvent pas l\'ouvrir — la carte sur le tableau de bord apparaît grisée.',
-  Intro:            'La Gestion des utilisateurs permet à un administrateur de créer et de gérer les comptes utilisateurs. Sélectionnez un utilisateur dans la grille pour charger ses informations dans les champs, puis modifiez et sauvegardez.',
+                    'Les utilisateurs sans privilèges d\'administrateur ne peuvent pas l\'ouvrir — la carte sur le tableau de bord apparaît grisée.',
+
+  Intro:            'Sélectionnez un utilisateur dans la grille pour charger ses informations dans les champs, puis modifiez et sauvegardez.',
 
   HeadingUserInfo:  'Informations de l\'utilisateur',
   HeadingControls:  'Contrôles',

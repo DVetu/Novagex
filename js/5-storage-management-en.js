@@ -1,9 +1,20 @@
 if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.EN = {
   PageTitle:           'Storage Management',
-  Overview:            'Storage Management is the main work area. It is organized into three tabs: Clients, Units, and Storages. The three grids at the bottom of the screen are always visible and update as you navigate.',
-  OverviewNote:        'A client owns one or more units (vehicles or boats). A storage contract links a client and one of their units to a physical location for a season.',
 
+  Overview:            'Storage Management is the main work area.<br>' +
+                       'It is organized into three tabs:<br>' +
+                       ' - Clients (the customer description: name, address, phone).<br>' +
+                       ' - Units (the description of vehicle being stored: camper, RV, boat, automobile)<br>' +
+                       ' - Storages (when is this happening, what is the price, where is the unit sitting).<br>' +
+                       'The three grids over the right of the screen are always visible and update as you navigate.',
+                       
+  OverviewNote:        'A client owns one or more units (vehicles or boats).<br>' +
+                       'A storage contract links a client, a unit, and a physical location for a season.<br>' +
+                       'Over the years a client should be linked to multiple storages.<br>' +
+                       'And why not, more than one unit !',
+
+  // ── Global controls (the controls that always show, whatever tab has the focus) ─
   HeadingGlobal:       'Global controls',
   LabelNewBtn:         'New transaction button',
   NewBtn:              'Clears all fields on the active tab so you can enter a new record.',
