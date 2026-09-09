@@ -130,6 +130,15 @@ main.content h3 {
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
+.page-screenshot {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 22px;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-light);
+}
 main.content p   { line-height: 1.75; margin-bottom: 10px; }
 main.content ul,
 main.content ol  { margin: 6px 0 12px 22px; line-height: 1.75; }

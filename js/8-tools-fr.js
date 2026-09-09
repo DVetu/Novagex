@@ -2,6 +2,8 @@ if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.FR = {
   PageTitle:          'Outils',
 
+  ToolsImage:         'img/08-tools-fr.jpg',
+
   Overview:           'Les <strong>Outils</strong> permettent à un administrateur de :<br>' +
                       ' - créer une sauvegarde (fortement recommandé, car une mauvaise manipulation pourrait entraîner une perte de données).<br>' +
                       ' - modifier les données dans certains champs sélectionnés (comme corriger l\'orthographe d\'une ville).<br>' +

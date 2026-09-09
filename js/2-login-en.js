@@ -2,6 +2,8 @@
 PageContent.EN = {
   PageTitle:             'Login',
 
+  LoginImage:            'img/02-login-en.jpg',
+
   Overview:              'At startup, the login window is the first screen you will interact with.<br>' +
                          'Please enter your login name and password.<br>' +
                          'StorageFlow will be able to:<br>' +

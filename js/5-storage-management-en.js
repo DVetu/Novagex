@@ -2,6 +2,8 @@ if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.EN = {
   PageTitle:           'Storage Management',
 
+  StorageManagementImage: 'img/05-storage-management-en.jpg',
+
   Overview:            'Storage Management is the main work area.<br>' +
                        'It is organized into three tabs:<br>' +
                        ' - Clients (the customer description: name, address, phone).<br>' +

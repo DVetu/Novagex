@@ -2,6 +2,8 @@ if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.FR = {
   PageTitle:        'Gestion des utilisateurs',
 
+  UsersManagementImage: 'img/07-users-management-fr.jpg',
+
   Overview:         'La Gestion des utilisateurs permet à un administrateur de :<br>' +
                     ' - créer et sauvegarder de nouveaux comptes utilisateurs<br>' +
                     ' - rappeler n\'importe quel compte utilisateur<br>' +

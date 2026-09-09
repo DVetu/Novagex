@@ -2,6 +2,8 @@ if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.FR = {
   PageTitle:          'Gestion des listes',
 
+  ListsManagementImage: 'img/09-lists-fr.jpg',
+
   Overview:           'Pour accélérer la saisie des données, des listes déroulantes sont affichées sur certains champs.<br>' +
                       'Par exemple les titres de clients ou les types d\'unités.<br>' +
                       'Ces listes sont pratiques, mais seulement si les données suggérées sont pertinentes.<br>' +

@@ -1,7 +1,9 @@
 if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.FR = {
   PageTitle:             'Connexion',
-                         
+
+  LoginImage:            'img/02-login-fr.jpg',
+
   Overview:              'Au démarrage, la fenêtre de connexion est le premier écran avec lequel vous interagirez.<br>' +
                          'Indiquez votre nom d\'utilisateur et votre mot de passe.<br>' +
                          'StorageFlow pourra alors:<br>' +

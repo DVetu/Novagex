@@ -2,6 +2,8 @@ if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.EN = {
     PageTitle:        'Reports',
 
+  ReportsImage:     'img/06-reports-en.jpg',
+
   Overview:         'The Reports screen lets you filter and export data from StorageFlow.<br>' +
                     'Reports can be produced as:<br>' +
                     ' - a PDF (excellent for printing or sharing)<br>' +

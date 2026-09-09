@@ -2,6 +2,8 @@ if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.EN = {
   PageTitle:        'My Settings',
 
+  MySettingsImage:  'img/04-my-settings-en.jpg',
+
   Overview:         '<strong>My Settings</strong> can be opened from the Dashboard <br>' +
                     'It holds your personal profile. <br>' +
                     'Changes made here will only affect your own account.',

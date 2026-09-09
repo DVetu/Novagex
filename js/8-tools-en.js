@@ -2,6 +2,8 @@ if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.EN = {
   PageTitle:          'Tools',
 
+  ToolsImage:         'img/08-tools-en.jpg',
+
   Overview:           '<strong>Tools</strong> allows an administrator to:<br>' +                                                                      
                       ' - create a backup (highly recommended since mishandling could lead to data loss).<br>' +                            
                       ' - modify the data in selected fields (like correcting the spelling of a city).<br>' +                   

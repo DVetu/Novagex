@@ -2,6 +2,8 @@ if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.FR = {
     PageTitle:        'Rapports',
 
+  ReportsImage:     'img/06-reports-fr.jpg',
+
   Overview:         'L\'écran Rapports vous permet de filtrer et d\'exporter les données de StorageFlow.<br>' +
                     'Les rapports peuvent être produits en format :<br>' +
                     ' - PDF (excellent si vous souhaitez imprimer ou partager votre rapport)<br>' +

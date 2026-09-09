@@ -2,6 +2,8 @@ if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.FR = {
   PageTitle:               'Tableau de bord',
 
+  DashboardImage:          'img/03-dashboard-fr.jpg',
+
   Overview:                'Après une connexion réussie, le <strong>tableau de bord</strong> est votre point de départ. <br>' +
                            'Considérez le tableau de bord comme le menu principal.<br>' +
                            'Six cartes sont affichées, une pour chaque fonctionnalité offerte par StorageFlow:<br>' +

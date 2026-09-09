@@ -2,6 +2,8 @@ if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.EN = {
   PageTitle:        'Users Management',
 
+  UsersManagementImage: 'img/07-users-management-en.jpg',
+
   Overview:         'Users Management allows an administrator to:<br>' +
                     ' - create and save new user accounts<br>' +
                     ' - recall any user account<br>' +

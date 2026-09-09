@@ -2,6 +2,8 @@ if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.FR = {
   PageTitle:        'Mes paramètres',
 
+  MySettingsImage:  'img/04-my-settings-fr.jpg',
+
   Overview:         '<strong>Mes Paramètres</strong> est accessible depuis le tableau de bord.<br>' + 
                     'Cette page contient votre profil personnel.<br>' + 
                     'Les modifications faites ici n\'affectent que votre propre compte.',

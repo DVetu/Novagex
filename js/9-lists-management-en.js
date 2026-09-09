@@ -2,6 +2,8 @@ if (typeof PageContent === 'undefined') PageContent = {};
 PageContent.EN = {
   PageTitle:          'Lists Management',
 
+  ListsManagementImage: 'img/09-lists-en.jpg',
+
   Overview:           'To speed up data entry, drop-down lists are displayed on selected fields.<br>' +
                       'For example clients titles or units types.<br>' + 
                       'These lists are convenient, but only if the data suggested makes sense.<br>' + 

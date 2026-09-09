@@ -2,6 +2,8 @@
 PageContent.EN = {
   PageTitle:               'Dashboard',
 
+  DashboardImage:          'img/03-dashboard-en.jpg',
+
   Overview:                'After a successful login, the <strong>dashboard</strong> is your starting point. <br>' +
                            'Consider the dashboard like the main menu.<br>' + 
                            'Six cards are displayed, one for each feature available in StorageFlow:<br>' +
