@@ -138,6 +138,7 @@ main.content h3 {
   border: 1px solid #ddd;
   border-radius: var(--border-radius-md);
   box-shadow: var(--shadow-light);
+  cursor: zoom-in;
 }
 main.content p   { line-height: 1.75; margin-bottom: 10px; }
 main.content ul,

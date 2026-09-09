@@ -60,3 +60,19 @@ const LanguageManager = {
 };
 
 document.addEventListener('DOMContentLoaded', () => LanguageManager.init());
+
+document.addEventListener('DOMContentLoaded', () => {
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  if (!lightbox || !lightboxImg) return;
+  document.querySelectorAll('.page-screenshot, .toc-img').forEach(img => {
+    img.addEventListener('click', () => {
+      lightboxImg.src = img.src;
+      lightbox.classList.add('active');
+    });
+  });
+  lightbox.addEventListener('click', () => lightbox.classList.remove('active'));
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') lightbox.classList.remove('active');
+  });
+});
