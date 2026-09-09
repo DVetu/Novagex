@@ -24,7 +24,7 @@ PageContent.FR = {
               'Je promets que c&apos;est vraiment, vraiment, de base.',
 
   TocTitle2:  'Se connecter',
-  TocDesc2:   'L&apos;écran de connexion est assez simple, il ne présente aucune difficulté.<br>' +
+  TocDesc2:   'L&apos;écran de connexion est très simple, il ne présente aucune difficulté.<br>' +
               'Mais vous découvrirez quelques points utiles qui pourraient vous simplifier la vie lors de futures connexions.',
 
   TocTitle3:  'Tableau de bord',
@@ -43,11 +43,11 @@ PageContent.FR = {
               'Vous pouvez aussi effectuer des opérations avancées... Comme changer le propriétaire d&apos;une unité ! Ou rappeler un contrat de l&apos;année précédente et simplement changer les dates pour enregistrer un entreposage pour l&apos;année en cours (sans modifier les données de l&apos;année précédente).',
 
   TocTitle6:  'Rapports',
-  TocDesc6:   'Générez et exportez des rapports en format PDF ou Excel.',
+  TocDesc6:   'Générez et exportez des listes et des rapports en format PDF ou Excel.',
 
   TocTitle7:  'Gestion des utilisateurs',
   TocDesc7:   '<b>Accès restreint aux administrateur uniquement !</b><br>' +
-              'Créez et gérez tous les comptes des utilisateurs.<br>' +
+              'Créez et gérez les comptes des utilisateurs.<br>' +
               'Attribuez des mots de passe et des rôles.<br>' +
               'Vous voulez congédier quelqu&apos;un ? C&apos;est ici que ça se passe.',
 
@@ -58,6 +58,6 @@ PageContent.FR = {
 
   TocTitle9:  'Gestion des listes',
   TocDesc9:   '<b>Administrator access only !</b><br>' +
-              'L&apos;entrée des données est facilitée lorsque les listes présentées sont bien entretenues.<br>' +
+              'L&apos;entrée des données est facilitée lorsque les listes déroulantes présentées sont bien entretenues.<br>' +
               'Profitez de cet écran pour éliminer les choix inutiles, et ajouter des choix plus pertinents. Par exemple ajustez la liste des villes, ou des types de véhicules.',
 };

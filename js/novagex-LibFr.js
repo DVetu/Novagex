@@ -14,7 +14,7 @@ translations.FR = {
   CarouselSlide04:   "img/Carousel-04-my-settings-fr.jpg",
   CarouselSlide06:   "img/Carousel-06-storage-management-fr.jpg",
   CarouselSlide08:   "img/Carousel-08-reports-fr.jpg",
-  CarouselSlide10:   "img/Carousel-10-Tools-fr.jpg",
+  CarouselSlide10:   "img/Carousel-10-tools-fr.jpg",
 
   Card1Title:        "STORAGEflow",
   Card1Desc:         "Gestion de l'entreposage hivernal de véhicules..",

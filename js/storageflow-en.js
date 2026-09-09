@@ -24,7 +24,7 @@ PageContent.EN = {
               'I promise it&apos;s really, really, basic stuff.',
 
   TocTitle2:  'Login',
-  TocDesc2:   'The Login screen is pretty strait forward, there is no challenge there.<br>' +
+  TocDesc2:   'The Login screen is strait forward, there is no challenge there.<br>' +
               'You will learn just a few good to know items, and it may make login simplier in the future.',
 
   TocTitle3:  'Dashboard',
@@ -34,7 +34,7 @@ PageContent.EN = {
 
   TocTitle4:  'My Settings',
   TocDesc4:   'Your personal profile.<br>' +
-              'Loginame, login, password, language, and some preferences.<br>' +
+              'Login name, password, language, and some other preferences.<br>' +
               'You will learn just a few good to know items, and this is where you will change the app behaviour to fit your personal preferences.',
 
   TocTitle5:  'Storage Management',
